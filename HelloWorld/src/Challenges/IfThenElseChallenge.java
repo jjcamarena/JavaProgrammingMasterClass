@@ -1,3 +1,5 @@
+package Challenges;
+
 public class IfThenElseChallenge {
     public static void main(String[] args) {
         boolean gameOver = true;

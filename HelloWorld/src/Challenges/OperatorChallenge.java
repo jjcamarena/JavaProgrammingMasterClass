@@ -1,3 +1,5 @@
+package Challenges;
+
 public class OperatorChallenge {
     public static void main(String[] args) {
         double doubleOne = 20.00d;

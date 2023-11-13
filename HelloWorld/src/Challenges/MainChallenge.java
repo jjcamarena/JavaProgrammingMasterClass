@@ -1,3 +1,5 @@
+package Challenges;
+
 public class MainChallenge {
     public static void main(String[] args) {
         boolean gameOver = true;

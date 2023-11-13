@@ -1,3 +1,5 @@
+package Challenges;
+
 public class ScoreChallenge {
 
     public static void main(String[] args) {
