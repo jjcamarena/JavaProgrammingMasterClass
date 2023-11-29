@@ -6,7 +6,9 @@ public class SecondsAndMinutesChallenge {
         // seconds >= 0
         System.out.println(getDurationString(-3945));
         System.out.println(getDurationString(-65, 45));
-        System.out.println(getDurationString(65, 145));
+        System.out.println(getDurationString(65, 180));
+        System.out.println(getDurationString(65, 45));
+        System.out.println(getDurationString(3945));
     }
 
     public static String getDurationString(int seconds) {
