@@ -19,6 +19,8 @@ public class SwitchEnhanced {
         printDayOfWeekv2(5);
         printDayOfWeekv2(6);
         printDayOfWeekv2(7);
+        printDayOfWeekv2(8);
+        printDayOfWeekv2(150);
 
         printWeekDay(0);
         printWeekDay(1);
