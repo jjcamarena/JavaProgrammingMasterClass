@@ -11,6 +11,15 @@ public class SwitchEnhanced {
         printDayOfWeek(6);
         printDayOfWeek(7);
 
+        printDayOfWeekv2(0);
+        printDayOfWeekv2(1);
+        printDayOfWeekv2(2);
+        printDayOfWeekv2(3);
+        printDayOfWeekv2(4);
+        printDayOfWeekv2(5);
+        printDayOfWeekv2(6);
+        printDayOfWeekv2(7);
+
         printWeekDay(0);
         printWeekDay(1);
         printWeekDay(2);
@@ -32,6 +41,20 @@ public class SwitchEnhanced {
             case 6 -> System.out.println(day + " is Saturday");
             default -> System.out.println("Invalid day");
         }
+    }
+
+    public static void printDayOfWeekv2(int day) {
+        String dayOfWeek = switch(day) {
+            case 0 -> {yield "Sunday";}
+            case 1 -> {yield "Monday";}
+            case 2 -> {yield "Tuesday";}
+            case 3 -> {yield "Wednesday";}
+            case 4 -> {yield "Thursday";}
+            case 5 -> {yield "Friday";}
+            case 6 -> {yield "Saturday";}
+            default -> "Invalid day";
+        };
+        System.out.println(day + " stands for " + dayOfWeek);
     }
 
     public static void printWeekDay(int day) {
