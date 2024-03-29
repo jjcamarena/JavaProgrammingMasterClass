@@ -3,8 +3,8 @@ package Exercises;
 public class NumberToWords {
     public static void main(String[] args) {
         //numberToWords(1010);
-        System.out.println(getDigitCount(12345));
-        numberToWords(12345);
+        System.out.println(getDigitCount(1400));
+        numberToWords(1400);
     }
 
     public static void numberToWords(int number) {

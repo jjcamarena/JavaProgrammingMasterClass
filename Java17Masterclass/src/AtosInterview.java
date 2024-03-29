@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -21,12 +22,11 @@ public class AtosInterview {
                 }
             }
         }
-        System.out.println("map = " + map);
 
         // Second solution
         Map<String, Long> solution = cities.stream()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-        solution.forEach((name, cuenta) -> System.out.println(name + " > " + cuenta));
+        solution.forEach((name, cuenta) -> System.out.println(name + " => " + cuenta));
     }
 }
 /**
