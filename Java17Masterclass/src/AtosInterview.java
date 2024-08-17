@@ -29,6 +29,7 @@ public class AtosInterview {
         solution.forEach((name, cuenta) -> System.out.println(name + " => " + cuenta));
     }
 }
+
 /**
  * List<String> cities = List.of ("New York","Atlanta","Miami","Atlanta","Miami");
  *
